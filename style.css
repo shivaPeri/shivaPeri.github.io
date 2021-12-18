@@ -8,3 +8,21 @@ div#main {
   display: block;
   gap: 0px;
 }
+
+div.tab-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.active {
+  /* background-color: #ccc; */
+  text-decoration: underline;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  /* padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none; */
+}

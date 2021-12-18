@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Shiva Peri</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
   </head>
   <body>
     <div id="main">
-      <h1>Shiva Peri</h1>
-      <div>Computer Science + Art third year at Carnegie Mellon</div>
+      <h1>shiva peri</h1>
+      <div>3rd year studying Computer Science + Art @ Carnegie Mellon</div>
       <div>
         <a href="https://twitter.com/shiva_peri">twitter</a>
         <a href="https://www.youtube.com/channel/UC1tqt3jHvREW2cAbai1qGzg"
@@ -20,205 +21,235 @@
         <a href="https://www.linkedin.com/in/shiva-peri-08561719a/">linkedin</a>
       </div>
 
-      <h2>about</h2>
-      <p>hello im shiva. .... TODO later</p>
-      <p>current interests</p>
+      <!-- <div id="about">
+        <p>hello im shiva. i study computer science and art at carnegie mellon university</p>
+        <p>current interests</p>
+      </div> -->
 
-      <h2>projects</h2>
-      <ul>
-        <li>
-          3d spirography
-          <a href="https://github.com/shivaPeri/3d_spirograph">repo</a>
-        </li>
-        
-        <li>
-          <a href="https://psilonauts.itch.io/psilonaut">psilonaut</a> final
-          project for Paolo Pedercini's Advance No More Video Games class
-        </li>
-        <li>
-          <a href="https://github.com/shivaPeri/112TermProject"
-            >fourier drawing machine</a
-          >. 15112 term project. 1st place finalist
-        </li>
-        <li>
-          AR Floaties. Final project for Golan Levin's <a href="https://courses.ideate.cmu.edu/60-212/f2020/">Interactivity and
-          Computation</a>
-        </li>
-        <li>
-          <a
-            href="https://drive.google.com/file/d/17ATnLDhqrMmRFFKQwXBu9iAQSoV-5XEN/view"
-            >Kirigami Snakebot</a
-          >
-          Foldable Robotics project
-        </li>
-        <li>
-          Soli Sandbox Projects
-          <a
-            href="https://courses.ideate.cmu.edu/60-212/f2020/shivanapandrew-cmu-edu/10/11/lampsauce-solisandbox-1-3/"
-            >1</a
-          >
-          <a
-            href="https://courses.ideate.cmu.edu/60-212/f2020/shivanapandrew-cmu-edu/10/11/lampsauce-solisandbox-2-3/"
-            >2</a
-          >
-          <a
-            href="https://courses.ideate.cmu.edu/60-212/f2020/shivanapandrew-cmu-edu/10/11/lampsauce-solisandbox-3-3/"
-            >3</a
-          >
-        </li>
-        <li>3d priting</li>
-        <a>
-          <a
-            href="https://courses.ideate.cmu.edu/60-428/f2021/gabagoo/11/22/gabagoo-finalproject-2/"
-            >plotted chairs</a
-          >. final project for Golan Levin's <a href="https://courses.ideate.cmu.edu/60-428/f2021">Drawing with Machines</a>
-        </li>
-        <li>
-          <a href="https://github.com/shivaPeri/Grasshopper_Mesh2Mesh_Tiling"
-            >grasshopper mesh tiler</a
-          >. final project for Dave Touretsky's Intermediate Rapid Prototyping
-        </li>
-
-        <li>
-          <a
-            href="https://courses.ideate.cmu.edu/60-428/f2021/gabagoo/10/20/gabagoo-midsemester/"
-            >moire blobs</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://courses.ideate.cmu.edu/60-428/f2021/gabagoo/10/06/gabagoo-tilingpattern/"
-            >tiling patterns</a
-          >
-        </li>
-      </ul>
-
-      hackathons
-      <ul>
-        <li>
-          solana's ignition
-          <a href="https://devpost.com/software/malloc-protocol"
-            >malloc protocol</a
-          >
-        </li>
-        <li>
-          tartanhacks2021 =>
-          <a href="https://github.com/lgeng12/paint-4d">paint4d</a>
-        </li>
-        <li>
-          tartanhacks2020 =>
-          <a href="https://devpost.com/software/dinex-daddy-9gr230"
-            >dinex daddy</a
-          >
-        </li>
-        <li>
-          hack112 => spotimood
-          <a href="https://github.com/shivaPeri/spotify-mood-playlist-generator"
-            >repo</a
-          >
-          <a
-            href="https://www.youtube.com/watch?v=cxhQoG1F47A&ab_channel=PrithuPareek"
-            >video</a
-          >
-        </li>
-      </ul>
-
-      <h2>bio</h2>
-
-      <ul>
-        <li>Apple AI/ML intern</li>
-        <li>
-          HCII research under Scott Hudson and Patrick Carrington
-          <ul>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=-CbXxQ7Pw7Q&ab_channel=ShivaPeri"
-                >3D Printing Shape-Changing Interfaces with Magnetorheological
-                Fluid</a
-              >
-            </li>
-            <li>
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3411764.3445716"
-                >From Tactile to NavTile: Opportunities and Challenges with
-                Multi-Modal Feedback for Guiding Surfaces during Non-Visual
-                Navigation</a
-              >
-            </li>
-          </ul>
-        </li>
-      </ul>
-
-      <h2>misc</h2>
-      classes i liked
-      <ul>
-        <li>functional programming</li>
-        <li>computer vision</li>
-        <li>deep learning</li>
-      </ul>
-      <p>TODO</p>
-
-      <li>
-        p5 sketches
+      <div class="tab-group">
+        <h2 class="tablinks active" onclick="setActiveTab(event, 'projects')">projects</h2>
+        <h2 class="tablinks" onclick="setActiveTab(event, 'gallery')">gallery</h2>
+        <h2 class="tablinks" onclick="setActiveTab(event, 'bio')">bio</h2>
+        <h2 class="tablinks" onclick="setActiveTab(event, 'misc')">misc</h2>
+      </div>
+      
+      <div id="projects" class="tabcontent" style="display: block;">
         <ul>
           <li>
-            <a href="https://editor.p5js.org/coolbeans/full/xxAxOC2nf"
-              >Living Wallpaper</a
-            >
-            <a href="https://editor.p5js.org/coolbeans/sketches/xxAxOC2nf"
-              >(code)</a
-            >
+            3d spirography
+            <a href="https://github.com/shivaPeri/3d_spirograph">repo</a>
+          </li>
+          
+          <li>
+            <a href="https://psilonauts.itch.io/psilonaut">psilonaut</a> final
+            project for Paolo Pedercini's Advance No More Video Games class
           </li>
           <li>
-            <a href="https://editor.p5js.org/coolbeans/full/i-ZEZTcTt"
-              >Clock Creature</a
-            >
-            <a href="https://editor.p5js.org/coolbeans/sketches/i-ZEZTcTt"
-              >(code)</a
-            >
+            <a href="https://github.com/shivaPeri/112TermProject"
+              >fourier drawing machine</a
+            >. 15112 term project. 1st place finalist
           </li>
           <li>
-            <a href="https://editor.p5js.org/coolbeans/full/OQj30FZQL"
-              >Colliding Rectangles</a
-            >
-            <a href="https://editor.p5js.org/coolbeans/sketches/OQj30FZQL"
-              >(code)</a
-            >
+            AR Floaties. Final project for Golan Levin's <a href="https://courses.ideate.cmu.edu/60-212/f2020/">Interactivity and
+            Computation</a>
           </li>
           <li>
-            <a href="https://editor.p5js.org/coolbeans/full/QmPJ8apnh"
-              >Generative Map</a
+            <a
+              href="https://drive.google.com/file/d/17ATnLDhqrMmRFFKQwXBu9iAQSoV-5XEN/view"
+              >Kirigami Snakebot</a
             >
-            <a href="https://editor.p5js.org/coolbeans/sketches/QmPJ8apnh"
-              >(code)</a
-            >
+            Foldable Robotics project
           </li>
           <li>
-            <a href="https://editor.p5js.org/coolbeans/full/RDmEqAVWP"
-              >Iteration Exercise</a
+            Soli Sandbox Projects
+            <a
+              href="https://courses.ideate.cmu.edu/60-212/f2020/shivanapandrew-cmu-edu/10/11/lampsauce-solisandbox-1-3/"
+              >1</a
             >
-            <a href="https://editor.p5js.org/coolbeans/sketches/RDmEqAVWP"
-              >(code)</a
+            <a
+              href="https://courses.ideate.cmu.edu/60-212/f2020/shivanapandrew-cmu-edu/10/11/lampsauce-solisandbox-2-3/"
+              >2</a
+            >
+            <a
+              href="https://courses.ideate.cmu.edu/60-212/f2020/shivanapandrew-cmu-edu/10/11/lampsauce-solisandbox-3-3/"
+              >3</a
+            >
+          </li>
+          <li>3d priting</li>
+          <a>
+            <a
+              href="https://courses.ideate.cmu.edu/60-428/f2021/gabagoo/11/22/gabagoo-finalproject-2/"
+              >plotted chairs</a
+            >. final project for Golan Levin's <a href="https://courses.ideate.cmu.edu/60-428/f2021">Drawing with Machines</a>
+          </li>
+          <li>
+            <a href="https://github.com/shivaPeri/Grasshopper_Mesh2Mesh_Tiling"
+              >grasshopper mesh tiler</a
+            >. final project for Dave Touretsky's Intermediate Rapid Prototyping
+          </li>
+  
+          <li>
+            <a
+              href="https://courses.ideate.cmu.edu/60-428/f2021/gabagoo/10/20/gabagoo-midsemester/"
+              >moire blobs</a
             >
           </li>
           <li>
             <a
-              href="https://five-interaction-exercises.glitch.me/?selection=2"
-              >Interction Exercises</a
-            >
-            <a href="https://glitch.com/~five-interaction-exercises"
-              >(code)</a
-            >
-          </li>
-          <li>
-            <a href="https://editor.p5js.org/coolbeans/full/G9w_M4TDp"
-              >p5.js Exercises</a
-            >
-            <a href="https://editor.p5js.org/coolbeans/sketches/G9w_M4TDp"
-              >(code)</a
+              href="https://courses.ideate.cmu.edu/60-428/f2021/gabagoo/10/06/gabagoo-tilingpattern/"
+              >tiling patterns</a
             >
           </li>
         </ul>
-      </li>
+
+      </div>
+
+      <div id="gallery" class="tabcontent">
+        <p>TODO</p>
+      </div>
+
+      <div id="bio" class="tabcontent">
+
+        <h3>experience</h3>
+        <ul>
+          <li>
+            <b>Jun-Aug 2020: </b>Apple AI/ML intern.
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ullam cupiditate nobis laborum. Laboriosam, veritatis commodi obcaecati dolores provident possimus quidem quia aliquid vero reprehenderit quisquam quasi quos temporibus quam.</p>
+          </li>
+          <li>
+            <b>Feb-Sept 2020: </b>HCII Research Assistant under Scott Hudson and Patrick Carrington
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptates totam, laborum sint et id nisi ipsam adipisci incidunt, eveniet voluptatem sapiente, hic numquam perspiciatis exercitationem at recusandae molestiae corrupti.</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=-CbXxQ7Pw7Q&ab_channel=ShivaPeri"
+                  >3D Printing Shape-Changing Interfaces with Magnetorheological
+                  Fluid</a
+                >
+              </li>
+              <li>
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3411764.3445716"
+                  >From Tactile to NavTile: Opportunities and Challenges with
+                  Multi-Modal Feedback for Guiding Surfaces during Non-Visual
+                  Navigation</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>hackathons</h3>
+        <ul>
+          <li>
+            solana's ignition
+            <a href="https://devpost.com/software/malloc-protocol"
+              >malloc protocol</a
+            >
+          </li>
+          <li>
+            tartanhacks2021 =>
+            <a href="https://github.com/lgeng12/paint-4d">paint4d</a>
+          </li>
+          <li>
+            tartanhacks2020 =>
+            <a href="https://devpost.com/software/dinex-daddy-9gr230"
+              >dinex daddy</a
+            >
+          </li>
+          <li>
+            hack112 => spotimood
+            <a href="https://github.com/shivaPeri/spotify-mood-playlist-generator"
+              >repo</a
+            >
+            <a
+              href="https://www.youtube.com/watch?v=cxhQoG1F47A&ab_channel=PrithuPareek"
+              >video</a
+            >
+          </li>
+        </ul>
+
+
+        <h3>awards</h3>
+        <ul>
+          <li>SURF 2020</li>
+          <li>Dean's List</li>
+          <li></li>
+        </ul>
+
+      </div>
+
+      <div id="misc" class="tabcontent">
+        classes i liked
+        <ul>
+          <li>functional programming</li>
+          <li>computer vision</li>
+          <li>deep learning</li>
+        </ul>
+        <p>TODO</p>
+  
+        <li>
+          p5 sketches
+          <ul>
+            <li>
+              <a href="https://editor.p5js.org/coolbeans/full/xxAxOC2nf"
+                >Living Wallpaper</a
+              >
+              <a href="https://editor.p5js.org/coolbeans/sketches/xxAxOC2nf"
+                >(code)</a
+              >
+            </li>
+            <li>
+              <a href="https://editor.p5js.org/coolbeans/full/i-ZEZTcTt"
+                >Clock Creature</a
+              >
+              <a href="https://editor.p5js.org/coolbeans/sketches/i-ZEZTcTt"
+                >(code)</a
+              >
+            </li>
+            <li>
+              <a href="https://editor.p5js.org/coolbeans/full/OQj30FZQL"
+                >Colliding Rectangles</a
+              >
+              <a href="https://editor.p5js.org/coolbeans/sketches/OQj30FZQL"
+                >(code)</a
+              >
+            </li>
+            <li>
+              <a href="https://editor.p5js.org/coolbeans/full/QmPJ8apnh"
+                >Generative Map</a
+              >
+              <a href="https://editor.p5js.org/coolbeans/sketches/QmPJ8apnh"
+                >(code)</a
+              >
+            </li>
+            <li>
+              <a href="https://editor.p5js.org/coolbeans/full/RDmEqAVWP"
+                >Iteration Exercise</a
+              >
+              <a href="https://editor.p5js.org/coolbeans/sketches/RDmEqAVWP"
+                >(code)</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://five-interaction-exercises.glitch.me/?selection=2"
+                >Interction Exercises</a
+              >
+              <a href="https://glitch.com/~five-interaction-exercises"
+                >(code)</a
+              >
+            </li>
+            <li>
+              <a href="https://editor.p5js.org/coolbeans/full/G9w_M4TDp"
+                >p5.js Exercises</a
+              >
+              <a href="https://editor.p5js.org/coolbeans/sketches/G9w_M4TDp"
+                >(code)</a
+              >
+            </li>
+          </ul>
+        </li>
+      </div>
     </div>
   </body>
 </html>
