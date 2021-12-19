@@ -19,6 +19,11 @@ div.spaced {
   gap: 1rem;
 }
 
+div.experience-item {
+  display: inline-flex;
+  gap: 10px;
+}
+
 div.scroll {
   overflow-x: scroll;
   overflow-y: hidden;
